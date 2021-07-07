@@ -18,7 +18,7 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: Agency Name
+title: SSA OIG
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
   Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
   # custom domains, edit this url parameter in the relevant branch to match the relevant custom domain.
 
 # Twitter handle. Only the handle, not the URL.
-twitter: 18F
+twitter: TheSSAOIG
 
 #################################################################
 #
@@ -79,25 +79,96 @@ ga:
 primary_navigation:
   - name: Home
     url: /
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
+  - name: About the OIG
     children:
-      - name: Navigation link
+      - name: Offices
         url: "#main-content"
-      - name: Navigation link
+      - name: Strategic Plan
         url: "#main-content"
-      - name: Navigation link
+      - name: OIG Leadership
         url: "#main-content"
+      - name: OIG Timeline
+        url: "#main-content"
+      - name: Performance Reports
+        url: "#main-content"
+      - name: Careers
+        url: "#main-content"
+        
+ - name: About Fraud Reporting
+    children:
+      - name: Submit a Report
+        url: "#main-content"
+      - name: What is Fraud, Waste, or Abuse? 
+        url: "#main-content"
+      - name: What Do We Investigate? 
+        url: "#main-content"
+       - name: Reporting Other Issues
+        url: "#main-content"
+      - name: What Info Must I Provide? 
+        url: "#main-content"
+      - name: May I Remain Anonymous?
+        url: "#main-content"
+       - name: What Will OIG Do With What I Report? 
+        url: "#main-content"
+      - name: Whistleblower Rights and Protection
+        url: "#main-content"
+      - name: Scam Awareness
+        url: "#main-content"
+        
+ - name: Audits and Investigations
+    children:
+      - name: Audit Reports
+        url: "#main-content"
+      - name: Mandatory Reviews
+        url: "#main-content"
+      - name: Top SSA Management Challenges
+        url: "#main-content" 
+      - name: Retired Management Challenges
+        url: "#main-content"
+      - name: Audit Work Plans
+        url: "#main-content"
+      - name: Investigations
+        url: "#main-content"  
+      - name: Cooperative Disability Investigations
+        url: "#main-content"  
+
+- name: Newsroom
+    children:
+      - name: News Releases
+        url: /blog/
+      - name: Fact Sheets
+        url: "#main-content"
+      - name: Congressional Testimony
+        url: "#main-content"  
+      - name: Semiannual Reports
+        url: "#main-content"
+      - name: OIG in the News
+        url: "#main-content"  
+      - name: SSA Anti-Fraud Facts
+        url: "#main-content"
+      
+ 
+#################################################################
+# - name: Newsroom
+#    url: /blog/
+ 
+
+
+# - name: Document
+#    url: /document/
+# - name: Document with sidenav
+#    url: /document-with-sidenav/  
+#
+#################################################################
 
 secondary_navigation:
-  - name: Secondary link
+  - name: Espanol
     url: "#main-content"
-  - name: Another secondary link
+  - name: RSS
+    url: "#main-content"
+ - name: E-updates
+    url: "#main-content"
+  - name: Contact Us
     url: "#main-content"
 
 # Search.gov configuration
