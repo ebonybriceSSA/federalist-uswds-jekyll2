@@ -102,13 +102,13 @@ primary_navigation:
         url: "#main-content"
       - name: What Do We Investigate? 
         url: "#main-content"
-       - name: Reporting Other Issues
+      - name: Reporting Other Issues
         url: "#main-content"
       - name: What Info Must I Provide? 
         url: "#main-content"
       - name: May I Remain Anonymous?
         url: "#main-content"
-       - name: What Will OIG Do With What I Report? 
+      - name: What Will OIG Do With What I Report? 
         url: "#main-content"
       - name: Whistleblower Rights and Protection
         url: "#main-content"
