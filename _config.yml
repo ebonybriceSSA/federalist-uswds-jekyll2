@@ -94,7 +94,7 @@ primary_navigation:
       - name: Careers
         url: "#main-content"
         
- - name: About Fraud Reporting
+  - name: About Fraud Reporting
     children:
       - name: Submit a Report
         url: "#main-content"
@@ -115,7 +115,7 @@ primary_navigation:
       - name: Scam Awareness
         url: "#main-content"
         
- - name: Audits and Investigations
+  - name: Audits and Investigations
     children:
       - name: Audit Reports
         url: "#main-content"
@@ -132,7 +132,7 @@ primary_navigation:
       - name: Cooperative Disability Investigations
         url: "#main-content"  
 
-- name: Newsroom
+  - name: Newsroom
     children:
       - name: News Releases
         url: /blog/
