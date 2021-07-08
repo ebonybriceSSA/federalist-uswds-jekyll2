@@ -76,9 +76,8 @@ ga:
   # ua: your-ua
 
 # Site Navigation
-primary_navigation:
-  - name: Home
-    url: /
+primary_navigation:  
+
   - name: About the OIG
     children:
       - name: Offices
