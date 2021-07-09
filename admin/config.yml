@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: 18f/federalist-uswds-jekyll
+  repo: ebonybriceSSA/federalist-uswds-jekyll2
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
@@ -9,7 +9,7 @@ backend:
 media_folder: assets/uploads
 public_folder: /images/uploads
 publish_mode: editorial_workflow
-logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
+logo_url: https://oig.ssa.gov/sites/default/files/oig-logo.png
 
 collections:
   - label: Posts
@@ -31,3 +31,131 @@ collections:
           timeFormat: false
         }
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - label: News
+    name: News
+    folder: _news/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: 'Excerpt', name: 'excerpt', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - label: Congressional Testimony
+    name: Testimony
+    folder: _congressional-testimony/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: 'Excerpt', name: 'excerpt', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - label: Semiannual Reports
+    name: Semiannual Reports
+    folder: _semi-annual-reports/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: 'Excerpt', name: 'excerpt', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - label: Audit Reports
+    name: Audit Reports
+    folder: _audit-reports/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: 'Excerpt', name: 'excerpt', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  
+  - label: Mandatory Reviews
+    name: mandatory-reviews
+    folder: _mandatory-reviews/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: 'Excerpt', name: 'excerpt', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - label: Investigations
+    name: Investigations
+    folder: _investigations/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: "Title", name: "title", widget: "string"}
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: 'MMMM D, YYYY',
+          dateFormat: 'MMMM D, YYYY',
+          timeFormat: false
+        }
+      - {label: 'Excerpt', name: 'excerpt', widget: 'string', required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
