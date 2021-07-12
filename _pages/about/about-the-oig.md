@@ -2,6 +2,7 @@
 title: About the OIG
 layout: page
 sidenav: true
+permalink: /about/
 ---
 
 # Our Mission 
