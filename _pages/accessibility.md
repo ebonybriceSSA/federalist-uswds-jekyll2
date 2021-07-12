@@ -2,6 +2,7 @@
 title: Accessibility
 layout: page
 sidenav: false
+permalink: /accessibility/
 ---
 
 The SSA Office of the Inspector General is committed to making https://oig.ssa.gov accessible to people with disabilities. To ensure that we meet or exceed the requirements of the [1998 Amendment to Section 508 of the Rehabilitation Act of 1973](https://section508.gov/) (link is external), we continually review our site and modify pages to remove accessibility problems for people with disabilities.
