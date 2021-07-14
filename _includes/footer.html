@@ -1,41 +1,163 @@
-<footer class="usa-footer site-footer" role="contentinfo">
-  <div class="footer-section-bottom bg-base-lighter">
-    <div class="grid-container">
-      <div class="grid-row padding-3">
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <a class="footer-logo media_link" href="https://18f.gsa.gov">
-              {% asset logo-img.png width="50" alt="Agency logo" %}
+<footer class="usa-footer">
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+  <div class="usa-footer__primary-section">
+    <nav class="usa-footer__nav" aria-label="Footer navigation">
+      <ul class="grid-row grid-gap">
+        
+          <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+            <a class="usa-footer__primary-link" href="/about/">
+              About the OIG 
             </a>
+          </li>
+        
+          <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+            <a class="usa-footer__primary-link" href="/fraud/">
+              About Fraud Reporting
+            </a>
+          </li>
+        
+          <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+            <a class="usa-footer__primary-link" href="/audits-and-investigations/">
+              Audits and Investigations
+            </a>
+          </li>
+        
+          <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+            <a class="usa-footer__primary-link" href="/news/">
+              News Rooms
+            </a>
+          </li>
+        <!--
+          <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+            <a class="usa-footer__primary-link" href="javascript:void(0);">
+              &lt;Primary link&gt;
+            </a>
+          </li>
+        -->
+        
+      </ul>
+    </nav>
+  </div>
+
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          <div class="mobile-lg:grid-col-auto">
+            <img class="usa-footer__logo-img" src="/_assets/images/logo.png.jpg" alt="">
+          </div>
+          <div class="mobile-lg:grid-col-auto">
+            <p class="usa-footer__logo-heading">
+             Office of the Inspector General
+            </p>
           </div>
         </div>
-        <div class="tablet:grid-col"></div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Accessibility</li>
-            <li>Privacy</li>
-            <li>FOIA</li>
-          </ul>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          <div class="usa-footer__social-links grid-row grid-gap-1">
+            
+              <div class="grid-col-auto">
+                <a class="usa-social-link usa-social-link--facebook" href="http://www.facebook.com/pages/SSA-Office-of-the-Inspector-General/326277484101069">
+                  <span>Facebook</span>
+                </a>
+              </div>
+            
+              <div class="grid-col-auto">
+                <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/#!/TheSSAOIG">
+                  <span>Twitter</span>
+                </a>
+              </div>
+            
+              <div class="grid-col-auto">
+                <a class="usa-social-link usa-social-link--youtube" href="http://www.youtube.com/user/TheSSAOIG">
+                  <span>YouTube</span>
+                </a>
+              </div>
+                       
+            
+              <div class="grid-col-auto">
+                <a class="usa-social-link usa-social-link--rss" href="javascript:void(0);">
+                  <span>RSS</span>
+                </a>
+              </div>
+            
+          </div>
+          
+          <h3 class="usa-footer__contact-heading">
+            &lt;Agency Contact Center&gt;
+          </h3>
+          <address class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="grid-col-auto">
+                <a href="tel:1-800-555-5555">
+                  &lt;(800) 555-GOVT&gt;
+                </a>
+              </div>
+              <div class="grid-col-auto">
+                <a href="mailto:&lt;info@agency.gov&gt;">
+                  &lt;info@agency.gov&gt;
+                </a>
+              </div>
+            </div>
+          </address>
         </div>
-        
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Open Government</li>
-            <li>Digital Strategy</li>
-            <li>Plain Writing</li>
-          </ul>
-        </div>
-        
-         <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>USA.gov</li>
-            <li>IGNET.gov</li>
-            <li>Oversight.gov</li>
-          </ul>
-        </div>
-        
-        
       </div>
     </div>
   </div>
 </footer>
+
+    
+    <div class="usa-identifier">
+  <section
+    class="usa-identifier__section usa-identifier__section--masthead"
+    aria-label="Agency identifier,">
+    <div class="usa-identifier__container"><div class="usa-identifier__logos">
+        <a href="javascript:void(0);" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img" src="../../dist/img/circle-gray-20.svg" alt="&lt;Parent agency&gt; logo" role="img">
+        </a>
+      </div>
+      
+      <div class="usa-identifier__identity" aria-label="Agency description">
+        <p class="usa-identifier__identity-domain">&lt;oig.ssa.gov&gt;</p>
+        <p class="usa-identifier__identity-disclaimer">An official website of the <a href="javascript:void(0);">Social Security Administration</a></p>
+      </div>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links,">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item">
+          <a href="https://ssa.gov/" class="usa-identifier__required-link">About SSA</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="/accessibility/"
+            class="usa-identifier__required-link">Accessibility support</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.ssa.gov/open/"
+            class="usa-identifier__required-link usa-link">Open Government</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.ssa.gov/digitalstrategy/"
+            class="usa-identifier__required-link usa-link">Digital Strategy</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.ignet.gov/content/inspectors-general-directory" class="usa-identifier__required-link usa-link">Council of the Inspectors General</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.ssa.gov/agency/plain-language/" class="usa-identifier__required-link usa-link">Plain Writing</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.ssa.gov/privacy.html" class="usa-identifier__required-link usa-link">Privacy policy</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+      <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+    </div>
+  </section>
+  </div>
